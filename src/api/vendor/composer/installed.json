@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "ypw/friendofmysql",
+            "version": "2.4.0",
+            "version_normalized": "2.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yolfry/FriendofMySQL.git",
+                "reference": "5b1a2e51fd691cb7dd33f4e2609826dd088df627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yolfry/FriendofMySQL/zipball/5b1a2e51fd691cb7dd33f4e2609826dd088df627",
+                "reference": "5b1a2e51fd691cb7dd33f4e2609826dd088df627",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "time": "2021-08-14T21:18:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ypw\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "yolfry",
+                    "email": "yolfri1997@hotmail.com"
+                }
+            ],
+            "description": "Create your php project from scratch with the mysql query library, which allows you to organize the mysql query structure of your project in a single file",
+            "support": {
+                "issues": "https://github.com/yolfry/FriendofMySQL/issues",
+                "source": "https://github.com/yolfry/FriendofMySQL/tree/2.4.0"
+            },
+            "install-path": "../ypw/friendofmysql"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

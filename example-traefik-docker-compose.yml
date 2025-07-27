@@ -1,0 +1,29 @@
+version: "3.10"
+
+services:
+  web:
+    build: .
+    image: vercontacto_web:v1
+    container_name: vercontacto_web
+    restart: always
+    environment:
+      - DB_TYPE=MySQLi_Object
+      - DB_SERVER=miservidor.com
+      - DB_NAME=vercontacto
+      - DB_USER=vercontacto
+      - DB_PASS=micontraseña
+      - DB_PORT=3306
+    volumes:
+      - ./imagenes:/var/www/api/images
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.vercontacto.rule=Host(`vercontacto.com`)"
+      - "traefik.http.routers.vercontacto.entrypoints=websecure"
+      - "traefik.http.routers.vercontacto.tls.certresolver=le"
+      - "traefik.http.services.vercontacto.loadbalancer.server.port=80"
+    networks:
+      - traefik-net
+
+networks:
+  traefik-net:
+    external: true

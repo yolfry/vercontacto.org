@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: vercontacto_web
+    environment:
+      - DB_TYPE=MySQLi_Object
+      - DB_SERVER=miservidor.com
+      - DB_NAME=vercontacto
+      - DB_USER=vercontacto
+      - DB_PASS=micontraseña
+      - DB_PORT=3306
+    volumes:
+      - ./imagenes:/var/www/api/images
+    ports:
+      - "5566:80"

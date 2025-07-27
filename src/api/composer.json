@@ -1,0 +1,18 @@
+{
+    "name": "yolfryweb/php",
+    "description": "api",
+    "autoload": {
+        "psr-4": {
+            "Yolfryweb\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yolfry",
+            "email": "yolfri1997@hotmail.com"
+        }
+    ],
+    "require": {
+        "ypw/friendofmysql": "^2.4"
+    }
+}
