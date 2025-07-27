@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://vercontacto.com" target="_blank">
+    <img src="https://vercontacto.com/img/verContactoLogo.svg" alt="vercontacto logo" width="400"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://vercontacto.com" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Crear%20un%20contacto%20Gratis-8dc12a?style=for-the-badge&logo=addthis&logoColor=white&labelColor=8dc12a&color=8dc12a" alt="Crear un contacto de ejemplo" style="border-radius:30px;"/>
+  </a>
+</p>
+
 # vercontacto – Guía de instalación de la base de datos y configuración de Docker
 
 ## 1. Instalación de la base de datos MySQL
@@ -99,4 +111,4 @@ Esto construirá la imagen y levantará el contenedor con la configuración adec
 
 ---
 
-\*\*¡Listo! Ahora tu app y tu base de datos están conectadas
+**¡Listo! Ahora tu app y tu base de datos están conectadas**
