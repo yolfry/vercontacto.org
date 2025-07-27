@@ -12,14 +12,19 @@ class api
 
    private static function base64_to_jpeg($base64_string = null)
    {
-
       //Generador de imagen, base64 Code
       if ($base64_string) {
+
+         // Verifica y crea la carpeta images si no existe
+         $images_dir = "./images/";
+         if (!is_dir($images_dir)) {
+            mkdir($images_dir, 0777, true);
+         }
 
          //Formato de la imagen mimeTypw
          $image = uniqid() . ".jpeg";
 
-         $output_file = "./images/" . $image;
+         $output_file = $images_dir . $image;
          $ifp = fopen($output_file, 'a');
 
          $base_to_php = explode(',', $base64_string);
