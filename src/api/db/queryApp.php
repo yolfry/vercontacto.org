@@ -6,8 +6,8 @@
  *
  * @see https://github.com/yolfry/FriendOfMysql/ The FriendOfMysql GitHub project
  *
- * @author    yolfry (ypw) <yolfri1997@hotmail.com>
- * @copyright 2015 - 2021 yolfry
+ * @author    Yolfry Web <yolfri1997@hotmail.com>
+ * @copyright 2015 - 2025 Yolfry Web
  * @license   http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  * @note      This program is distributed in the hope that it will be useful - WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or

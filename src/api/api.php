@@ -8,8 +8,8 @@ require  './vendor/autoload.php';
 //header('Content-type: text/javascript');
 
 /* 
-   @author Name yolfry bautista reynoso
-   @copyright 2021 ypw S.R.L
+   @author Name Yolfry Web
+   @copyright 2025 Yolfry Web
    @author email <yolfri1997@hotmail.com>
 */
 
