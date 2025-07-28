@@ -10,6 +10,12 @@
   </a>
 </p>
 
+## ¿Qué es vercontacto?
+
+**vercontacto** es una herramienta que permite generar enlaces de contacto centrados de forma rápida. Puedes compartir ese enlace fácilmente con otras personas o agregarlo a un código QR. Es una herramienta de código libre (Open Source), lo que te permite instalarla en tu propio servidor y dominio, o si prefieres, puedes usar la versión online ya lista en [vercontacto.com](https://vercontacto.com).
+
+---
+
 # vercontacto – Guía de instalación de la base de datos y configuración de Docker
 
 ## 1. Instalación de la base de datos MySQL
